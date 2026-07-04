@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Esperanza Recovery Network™</title>
+  <style>
+    :root{
+      --navy:#08233f;
+      --blue:#005b96;
+      --red:#c1121f;
+      --gold:#f2b705;
+      --green:#2d6a4f;
+      --cream:#fff7e6;
+      --light:#f6f9fc;
+      --ink:#17202a;
+      --softblue:#e8f5ff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--ink);
+      line-height:1.65;
+      background:#fff;
+    }
+    header{
+      background:
+        linear-gradient(135deg, rgba(8,35,63,.96), rgba(0,91,150,.94)),
+        radial-gradient(circle at 85% 15%, rgba(242,183,5,.30), transparent 30%);
+      color:white;
+      padding:82px 8% 96px;
+    }
+    .badge{
+      display:inline-block;
+      background:rgba(255,255,255,.16);
+      border:1px solid rgba(255,255,255,.35);
+      padding:8px 13px;
+      border-radius:999px;
+      font-size:.84rem;
+      font-weight:bold;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    h1{
+      font-size:clamp(2.4rem,6vw,5.1rem);
+      line-height:1;
+      margin:22px 0 12px;
+    }
+    h2{
+      color:var(--navy);
+      font-size:2.05rem;
+      margin:0 0 16px;
+    }
+    h3{color:var(--blue);margin:0 0 8px}
+    .subtitle{font-size:1.22rem;max-width:980px;margin-bottom:22px}
+    .note{font-size:.94rem;max-width:980px;opacity:.95}
+    nav{
+      position:sticky;
+      top:0;
+      z-index:20;
+      background:white;
+      border-bottom:1px solid #dce7ef;
+      box-shadow:0 2px 12px rgba(0,0,0,.06);
+      padding:12px 8%;
+      display:flex;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+    nav a{
+      text-decoration:none;
+      color:var(--navy);
+      font-weight:700;
+      font-size:.9rem;
+    }
+    section{padding:60px 8%}
+    .alt{background:var(--light)}
+    .card{
+      background:white;
+      border-radius:22px;
+      padding:28px;
+      box-shadow:0 10px 28px rgba(8,35,63,.10);
+      border:1px solid #e3edf5;
+      margin:18px 0;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+    }
+    .banner{
+      background:linear-gradient(135deg,var(--cream),#fff);
+      border-left:8px solid var(--gold);
+    }
+    .red{border-left:8px solid var(--red)}
+    .green{border-left:8px solid var(--green)}
+    .blue{border-left:8px solid var(--blue)}
+    .quote{
+      font-size:1.34rem;
+      font-weight:800;
+      color:var(--navy);
+      border-left:7px solid var(--red);
+      padding-left:18px;
+    }
+    .pill{
+      display:inline-block;
+      background:var(--softblue);
+      color:var(--navy);
+      border-radius:999px;
+      padding:8px 13px;
+      margin:4px;
+      font-weight:700;
+    }
+    .num{
+      display:inline-grid;
+      place-items:center;
+      width:34px;
+      height:34px;
+      border-radius:50%;
+      background:var(--red);
+      color:white;
+      font-weight:900;
+      margin-right:9px;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      background:white;
+      border-radius:18px;
+      overflow:hidden;
+    }
+    th,td{
+      padding:14px;
+      border-bottom:1px solid #e3edf5;
+      text-align:left;
+      vertical-align:top;
+    }
+    th{background:var(--navy);color:#fff}
+    .small{font-size:.92rem}
+    footer{
+      background:var(--navy);
+      color:white;
+      padding:48px 8%;
+    }
+    footer h2{color:white}
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="badge">Creative synthesis project</span>
+  <h1>Proyecto Esperanza Recovery Network™</h1>
+  <p class="subtitle"><strong>Healing Identity. Restoring Families. Transforming Communities.</strong><br>
+  A digital client and community brochure introducing a proposed Puerto Rican-centered addiction treatment and recovery agency.</p>
+  <p class="note"><strong>Project note:</strong> Proyecto Esperanza Recovery Network™ is a conceptual model created to explore culturally responsive addiction treatment and recovery services. It is not currently an operating treatment provider.</p>
+</header>
+
+<nav>
+  <a href="#topic">Research Topic</a>
+  <a href="#welcome">Welcome</a>
+  <a href="#sections">Brochure Sections</a>
+  <a href="#care">Levels of Care</a>
+  <a href="#plan">Cultural Recovery Plan™</a>
+  <a href="#reflection">What I Learned</a>
+  <a href="#works">Works Cited</a>
+</nav>
+
+<section id="topic">
+  <h2>Research Topic</h2>
+  <div class="card banner">
+    <p class="quote">Substance Use Disorder Treatment and Recovery Services in Puerto Rico: Cultural Influences on Addiction, Recovery, and Community Support</p>
+    <p>This project takes my research and turns it into something practical: a mock client and community brochure for a culturally responsive recovery agency. Instead of presenting the information as a traditional paper, I wanted to imagine what recovery services could look like if they were intentionally built around Puerto Rican culture, family, language, community, faith, and identity.</p>
+    <span class="pill">Familia</span>
+    <span class="pill">Cultura</span>
+    <span class="pill">Recuperación</span>
+    <span class="pill">Comunidad</span>
+    <span class="pill">Esperanza</span>
+  </div>
+</section>
+
+<section id="welcome" class="alt">
+  <h2>Welcome to Proyecto Esperanza</h2>
+  <div class="card">
+    <p><strong>Bienvenidos.</strong></p>
+    <p>Proyecto Esperanza Recovery Network™ is a proposed behavioral health and addiction recovery organization designed for Puerto Rican individuals and families living in the United States. The idea behind this agency is simple: recovery cannot be separated from culture, family, language, community, and lived experience.</p>
+    <p>In many treatment systems, people are asked to fit into the program. Proyecto Esperanza reverses that approach. The program is built to understand the person, the family, and the culture first. Evidence-based treatment remains essential, but it becomes more meaningful when clients feel seen, understood, and respected.</p>
+  </div>
+  <div class="grid">
+    <div class="card red"><h3>For Clients</h3><p>A welcoming place to begin recovery, receive support, and build a plan that honors both clinical needs and cultural strengths.</p></div>
+    <div class="card blue"><h3>For Families</h3><p>A recovery partner that recognizes parents, grandparents, children, siblings, chosen family, and community as part of the healing process.</p></div>
+    <div class="card green"><h3>For Communities</h3><p>A culturally grounded recovery model designed to strengthen health, belonging, prevention, and long-term stability.</p></div>
+  </div>
+</section>
+
+<section id="sections">
+  <h2>Research-Based Brochure Sections</h2>
+  <p>The following sections represent the main information that would appear in the community brochure. Each section is connected to the research and written in a way that a client, family member, community partner, or treatment professional could understand.</p>
+
+  <div class="card"><h3><span class="num">1</span>Culturally Responsive Recovery</h3><p>Substance use disorders continue to present a significant public health challenge throughout Puerto Rico, affecting individuals, families, and entire communities. Economic instability, unequal access to healthcare, and the island’s unique cultural traditions all influence both addiction and recovery. Rather than relying only on medical treatment, researchers emphasize the importance of culturally responsive programs that recognize family values, community involvement, and local traditions. Proyecto Esperanza is built around this idea by treating culture as a strength within the recovery process. (Caetano et al.; Hansen)</p></div>
+
+  <div class="card"><h3><span class="num">2</span>Recovery Starts with Family</h3><p>Family relationships consistently emerge as one of the strongest protective factors in preventing substance misuse and supporting long-term recovery. Individuals who report stronger family cohesion and greater cultural pride are less likely to develop alcohol use disorders and often experience better treatment outcomes. Proyecto Esperanza would involve families whenever possible through family counseling, education, healing circles, and recovery celebrations. This approach recognizes that addiction affects the whole family, and recovery can also become a family process. (Caetano et al. 2017; Caetano et al. 2019)</p></div>
+
+  <div class="card"><h3><span class="num">3</span>Removing Barriers to Treatment</h3><p>Access to treatment remains one of the greatest challenges facing individuals with substance use disorders in Puerto Rico. Poverty, unstable housing, transportation difficulties, healthcare shortages, stigma, and practical barriers such as missing identification documents can prevent people from entering or remaining in treatment. Proyecto Esperanza responds to these realities through open-access assessment, bilingual case management, transportation support, peer navigation, housing referrals, and community-based outreach. The goal is to make treatment easier to reach before a crisis becomes worse. (Abadie et al. 2021; Leff et al.)</p></div>
+
+  <div class="card"><h3><span class="num">4</span>Healing Mind and Body Together</h3><p>Mental health disorders and substance use disorders often occur together, making integrated treatment an important part of recovery. Research showing increased suicidal ideation among opioid-dependent individuals reinforces the need for comprehensive behavioral healthcare. Proyecto Esperanza would bring addiction counseling, mental health therapy, psychiatric services, medical care, and trauma-informed treatment together under one coordinated model. Recovery becomes stronger when depression, anxiety, trauma, substance use, and physical health are treated as connected parts of the same person. (Collazo et al.; Pérez-Pedrogo et al.)</p></div>
+
+  <div class="card"><h3><span class="num">5</span>Resilience During Crisis</h3><p>Environmental events have also shaped addiction treatment across Puerto Rico. Following Hurricane Maria, treatment services were disrupted, relapse risks increased, and access to healthcare became more difficult. Proyecto Esperanza would build disaster resilience into its model through telehealth, mobile outreach, peer check-ins, emergency transportation planning, and partnerships with community organizations. Recovery support should not disappear when a family or community is facing its hardest moments. (Contreras et al.)</p></div>
+
+  <div class="card"><h3><span class="num">6</span>Harm Reduction Saves Lives</h3><p>Harm reduction is an important public health strategy because recovery begins wherever a person is today. Research supports practical tools such as fentanyl test strips as a way to reduce overdose risk while encouraging continued connection to treatment services. Proyecto Esperanza would include naloxone education, fentanyl test strips, overdose prevention, outreach, and rapid connection to medication-assisted treatment when appropriate. Every life saved creates another opportunity for recovery. (Reyes Orlando et al.; Abadie and Fisher)</p></div>
+
+  <div class="card"><h3><span class="num">7</span>Community, Faith, and Identity</h3><p>Successful recovery depends on more than counseling sessions or medication alone. Faith-based organizations, community support networks, culturally adapted therapies, family involvement, and harm reduction initiatives all contribute to healthier recovery outcomes. Proyecto Esperanza would include optional spiritual support, community partnerships, music, food, storytelling, cultural celebrations, and identity-based recovery groups. These services are not extras; they are part of rebuilding purpose, connection, and belonging. (Hansen 2004; Hansen 2012; Abadie and Fisher)</p></div>
+
+  <div class="card"><h3><span class="num">8</span>The Cultural Recovery Plan™</h3><p>Every client at Proyecto Esperanza would develop a Cultural Recovery Plan™ alongside a traditional clinical treatment plan. This plan identifies family traditions, language preferences, cultural identity, community connections, spiritual beliefs, practical barriers, and personal strengths that may support long-term recovery. The purpose is to help clients see recovery as more than stopping substance use. It is also about reconnecting with who they are and what gives their life meaning. (Caetano et al.; Hansen)</p></div>
+
+  <div class="card"><h3><span class="num">9</span>Recovery Beyond Treatment</h3><p>Recovery does not end at discharge. Long-term success requires continued support, safe housing, employment assistance, education, peer coaching, family follow-up, and community connection. Proyecto Esperanza would include alumni groups, recovery housing partnerships, vocational referrals, volunteer opportunities, and peer recovery coaching so clients remain connected after formal treatment ends. A strong recovery network helps people move from stabilization to purpose. (Leff et al.; Pérez-Pedrogo et al.)</p></div>
+
+  <div class="card"><h3><span class="num">10</span>A New Vision for Recovery</h3><p>Proyecto Esperanza represents a proposed model for culturally responsive behavioral healthcare that combines evidence-based treatment with family engagement, integrated mental health services, harm reduction, community partnerships, and cultural identity. The goal is not simply to help people stop using substances. The goal is to help individuals and families rediscover hope, dignity, purpose, and belonging. This is the kind of recovery model I believe could better meet the complex needs of Puerto Rican communities. (Abadie et al.; Caetano et al.; Hansen)</p></div>
+</section>
+
+<section id="care" class="alt">
+  <h2>Proposed Levels of Care</h2>
+  <p>Proyecto Esperanza is designed as a full continuum of care so clients and families can receive support at different stages of recovery.</p>
+  <div class="grid">
+    <div class="card"><h3>Prevention & Education</h3><p>School, family, church, and neighborhood outreach focused on prevention, early intervention, and cultural pride.</p></div>
+    <div class="card"><h3>Open Access Assessment</h3><p>Walk-in screening, bilingual support, placement, transportation planning, and insurance navigation.</p></div>
+    <div class="card"><h3>Medical Detoxification</h3><p>Medical monitoring, withdrawal management, psychiatric evaluation, nutrition, and stabilization.</p></div>
+    <div class="card"><h3>Residential Stabilization</h3><p>Twenty-four-hour support, group counseling, individual counseling, peer mentoring, and family engagement.</p></div>
+    <div class="card"><h3>Residential Rehabilitation</h3><p>Structured clinical care, trauma treatment, cultural programming, vocational support, and recovery coaching.</p></div>
+    <div class="card"><h3>PHP / IOP / Outpatient</h3><p>Flexible treatment options that support work, school, parenting, and continued community involvement.</p></div>
+    <div class="card"><h3>Medication-Assisted Treatment</h3><p>Evidence-based medication support combined with counseling, monitoring, peer support, and family education.</p></div>
+    <div class="card"><h3>Recovery Housing & Mobile Outreach</h3><p>Safe housing pathways, harm reduction outreach, community engagement, and linkage to continuing care.</p></div>
+  </div>
+</section>
+
+<section id="plan">
+  <h2>The Cultural Recovery Plan™</h2>
+  <div class="card banner">
+    <p class="quote">Every client receives a clinical treatment plan and a Cultural Recovery Plan™.</p>
+    <p>The Cultural Recovery Plan™ is the signature feature of Proyecto Esperanza. It does not replace evidence-based treatment. It helps make treatment more personal, meaningful, and sustainable by identifying the cultural, family, spiritual, and community strengths that can support recovery.</p>
+  </div>
+  <table>
+    <tr><th>Plan Area</th><th>Purpose</th><th>Examples</th></tr>
+    <tr><td>Identity</td><td>Reconnect clients with who they are beyond addiction.</td><td>Puerto Rican heritage, language, personal strengths, family role, values.</td></tr>
+    <tr><td>Family System</td><td>Identify supportive relationships and needed boundaries.</td><td>Parents, grandparents, children, siblings, chosen family, family repair goals.</td></tr>
+    <tr><td>Community Connection</td><td>Build recovery supports outside the agency.</td><td>Churches, cultural organizations, peer groups, mentors, neighborhood resources.</td></tr>
+    <tr><td>Spiritual and Emotional Wellness</td><td>Support meaning, grief work, trauma healing, and emotional regulation.</td><td>Prayer, meditation, music, journaling, counseling, faith-based or nonreligious support.</td></tr>
+    <tr><td>Practical Stability</td><td>Address barriers that interfere with treatment retention.</td><td>Housing, transportation, food, employment, insurance, documentation, healthcare.</td></tr>
+    <tr><td>Recovery Legacy</td><td>Help clients move from survival to purpose.</td><td>Mentorship, family leadership, advocacy, volunteering, community service.</td></tr>
+  </table>
+</section>
+
+<section id="reflection" class="alt">
+  <h2>What I Learned</h2>
+  <div class="card">
+    <p>This project helped me see how research can become a real-world design. I did not want to simply summarize articles about addiction treatment in Puerto Rico. I wanted to build a concept that showed how those findings could be applied in an actual recovery setting. As someone entering the chemical dependency counseling and human services field, this project reinforced my belief that treatment must be more than clinical compliance. Effective recovery work must also address identity, family, culture, trauma, access, dignity, and community.</p>
+    <p>Creating Proyecto Esperanza allowed me to connect cultural awareness with professional practice. The project also reminded me that recovery systems should be designed around the people they serve, not the other way around. That is why the brochure format felt appropriate: it takes academic research and turns it into something a client, family member, or community partner could actually understand and use.</p>
+  </div>
+</section>
+
+<section id="works">
+  <h2>Works Cited</h2>
+  <div class="card small">
+    <p>Abadie, Roberto, and Celia B. Fisher. “It Didn’t Hurt Me: Patients’ and Providers’ Perspectives on Unsupervised Take-Home Doses, Drug Diversion, and Overdose Risks in the Provision of Medication for Opioid Use Disorder during COVID-19 in San Juan, Puerto Rico.” <em>Harm Reduction Journal</em>, vol. 21, 2024.</p>
+    <p>Abadie, Roberto, et al. “Treatment Trajectories and Barriers in Opioid Agonist Therapy for People Who Inject Drugs in Rural Puerto Rico.” <em>Journal of Substance Abuse Treatment</em>, vol. 127, 2021.</p>
+    <p>Caetano, Raul, et al. “Family Cohesion and Pride, Drinking and Alcohol Use Disorder in Puerto Rico.” <em>The American Journal of Drug and Alcohol Abuse</em>, vol. 43, no. 1, 2017, pp. 87–94.</p>
+    <p>Caetano, Raul, et al. “Children Exposed to Alcohol-Related Problems and DSM-5 Alcohol Use Disorder in San Juan, Puerto Rico.” <em>Journal of Ethnicity in Substance Abuse</em>, vol. 18, no. 3, 2019, pp. 374–386.</p>
+    <p>Collazo, G., et al. “A Retrospective Cohort Study on the Increasing Trend of Suicide Ideations and Risks in an Opioid-Dependent Population of Puerto Rico 2015–2018.” <em>Journal of Immigrant and Minority Health</em>, vol. 24, no. 5, 2022.</p>
+    <p>Contreras, Valerie, et al. “Silenced Stories of Illicit Drug Use in the Aftermath of Hurricane Maria in Puerto Rico.” <em>Critical Public Health</em>, vol. 33, no. 5, 2023, pp. 618–632.</p>
+    <p>Hansen, Helena. “Faith-Based Treatment for Addiction in Puerto Rico.” <em>JAMA</em>, vol. 291, no. 23, 2004, p. 2882.</p>
+    <p>Hansen, Helena. “The New Masculinity: Addiction Treatment as a Reconstruction of Gender in Puerto Rican Evangelist Street Ministries.” <em>Social Science & Medicine</em>, vol. 74, no. 11, 2012, pp. 1721–1728.</p>
+    <p>Leff, Jennifer A., et al. “The Structural and Health Policy Environment for Delivering Integrated HIV and Substance Use Disorder Treatments in Puerto Rico.” <em>BMC Health Services Research</em>, vol. 17, 2017.</p>
+    <p>Pérez-Pedrogo, C., et al. “Preliminary Feasibility and Acceptability of a Cultural Adaptation of Acceptance and Commitment Therapy for Latinxs with HIV and Drug Use Disorders in Puerto Rico.” <em>Revista Puertorriqueña de Psicología</em>, vol. 33, no. 2, 2022, pp. 232–243.</p>
+    <p>Reyes, J. C., et al. “Neighborhood Disorganization, Substance Use, and Violence among Adolescents in Puerto Rico.” <em>Journal of Interpersonal Violence</em>, vol. 23, no. 11, 2008, pp. 1499–1512.</p>
+    <p>Reyes Orlando, L., Colón Jordán, H. M., and A. Rosario Santos. “Willingness to Use Fentanyl Test Strips among Street Drug Users in Puerto Rico: A Cross-Sectional Study.” <em>Harm Reduction Journal</em>, vol. 22, 2025.</p>
+  </div>
+</section>
+
+<footer>
+  <h2>Proyecto Esperanza Recovery Network™</h2>
+  <p><strong>Healing Identity. Restoring Families. Transforming Communities.</strong></p>
+  <p class="small">Conceptual digital brochure created by Michael Celso.</p>
+</footer>
+
+</body>
+</html>
